@@ -15,9 +15,8 @@ from sensor_msg.msg import CameraInfo
 
 import droneflag as df
 
-
 class DepthSub(Node):
-    def __init__(self):
+    def __init__(self, x1, x2 ,x3):
         super().__init__('zed_depth')
         
         QoS_depth = QoSProfile(
