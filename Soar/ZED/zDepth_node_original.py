@@ -11,7 +11,7 @@ from rcply.qos import QoSReliabilityPolicy as qr
 
 import numpy as np
 import cv2 as cv
-import cv_bridge import br
+import cv_bridge import CvBridge
 
 class ImageSub(Node):
     def __init__(self):
@@ -31,7 +31,7 @@ class ImageSub(Node):
         self.image = np.empty(shape=[1])
         
     def image_callback(self, data):
-        self.image = br.imgmsg_to_cv2(image_raw_color, 'bgr8')
+        self.image = bridge.imgmsg_to_cv2(data, 'bgr8')
         cv.imshow('img', self.image)
         cv.waitKey(33)
         
