@@ -13,6 +13,7 @@ class ImageSubscriber(Node):
       
     self.subscription = self.create_subscription(
       Image, 
+     'topic name',
       self.listener_callback, 
       10)
     self.subscription 
