@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../Documents/HI"
+		},
+		{
+			"path": "../Documents/zed_pointcloud_field/src/soar_depthfield/soar_depthfield"
+		},
+		{
+			"path": "../Documents/pose_ws/src/soar_pose/soar_pose"
+		},
+		{
+			"path": "../Documents/chech_cc_ws/src/soar_check/soar_check"
+		},
+		{
+			"path": "../Documents/old_ws/HI"
+		}
+	],
+	"settings": {}
+}

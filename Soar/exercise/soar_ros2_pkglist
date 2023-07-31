@@ -1,0 +1,13 @@
+ros2 soar pkg list
+*tip : entry_point path : write relative to location of setup.py
+
+entry_point -> i can tag any node name. i just write node's code path correctly
+
+ws		pkg		node			*
+soar_ws	cv_basics	image_subsciber
+isworking_ws	soar_image_1	isworking
+getimage_ws	soar_image_2	image_info
+getimage_ws1 	soar_image_3	image_info_1		pixel
+getinfo	soar_info	zedcamera_info_sub
+
+pose_ws	soar_pose	zed_pose
